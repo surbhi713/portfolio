@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Home from './section/Home'
 import 'aos/dist/aos.css';
 import About from './section/About';
+import Skills from './section/Skills';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Header/>
         <Home/>
         <About/>
+        <Skills/>
       </DarkModeProvider>
     </div>
   )
