@@ -18,7 +18,7 @@ function Home() {
     const{darkmode,toggleDarkMode}=useDarkMode();
 
   return (
-    <div id='home' className='flex flex-col justify-center items-center gap-4 lg:py-20 py-7 px-3
+    <div id='home' className='flex flex-col justify-center items-center gap-4 lg:py-20 py-7 px-3 mt-20
     '>
         <h1 data-aos="zoom-in" className='text-7xl font-serif font-semibold '>Hi! I'm 
              <span className="text-rose-700 hover:text-yellow-900"> Surbhi</span></h1>
@@ -30,15 +30,17 @@ function Home() {
                 modern frameworks like <strong>REACT.</strong></p>
 
             <div className='flex gap-10 mt-6 items-end justify-center lg:py-10 px-10 rounded-xl'>
-            <button  className='bg-rose-950  text-white rounded-xl font-semibold
+             <button  className='bg-rose-950  text-white rounded-xl font-semibold
             border shadow-lg shadow-black p-4 px-6 transform hover:scale-110 
-            transition-transform duration-300' >
-                <a href="">View Project</a>
+            transition-transform duration-300'  >
+                <a href='#projects' smooth={true}>View Project</a>
             </button>
+            
+           
             <button className='bg-rose-950 text-white rounded-xl font-semibold
             border shadow-lg shadow-black p-4 px-6 transform hover:scale-110 
              transition-transform duration-300'>
-                <a href="">Contact Me</a>
+                <a href="#contact" smooth={true}>Contact Me</a>
             </button>
             </div>
     </div>
