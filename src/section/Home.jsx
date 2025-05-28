@@ -18,10 +18,10 @@ function Home() {
     const{darkmode,toggleDarkMode}=useDarkMode();
 
   return (
-    <div id='home' className='flex flex-col justify-center items-center gap-4 lg:py-20 py-7 px-3 mt-20
+    <div id='home' className='flex flex-col justify-center items-center gap-8 lg:py-20 py-7 px-3 mt-20
     '>
-        <h1 data-aos="zoom-in" className='text-7xl font-serif font-semibold '>Hi! I'm 
-             <span className="text-rose-700 hover:text-yellow-900"> Surbhi</span></h1>
+        <h1 data-aos="zoom-in" className='lg:text-7xl text-5xl font-serif font-semibold text-center'>Hi! I'm 
+             <span className="text-rose-700 hover:text-yellow-900 text-center"> Surbhi</span></h1>
              
              <p data-aos="zoom-in" data-aos-delay="200" 
              className='justify-center items-center text-center px-4 text-xl font-semibold leading-10'>

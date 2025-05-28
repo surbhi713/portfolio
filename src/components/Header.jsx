@@ -41,7 +41,7 @@ function Header() {
     ]
   return (
     <nav className={`${darkmode ? 'bg-black' : scrolled ? ' bg-teal-600  shadow-xl px-4 border-teal-900'  : 'bg-amber-200' }
-       lg:px-10 px-4 py-0 flex justify-between items-start gap-4 sticky top-0 z-30  ease-in-out`}>
+        w-full  lg:px-4 px-0 py-0 flex justify-between items-start gap-4 sticky top-0 z-30  ease-in-out`}>
 
       <div className='flex gap-5 justify-center items-center py-4'>
         {/* <img src={client5} alt="me"  className='w-[30%] h-fit transition-transform duration-300 transform hover:scale-110'/> */}

@@ -17,7 +17,7 @@ function About() {
     const{darkmode,toggleDarkMode}=useDarkMode();
 
   return (
-    <div id='about' className={`${darkmode ? 'bg-black' : 'bg-transparent'}' lg:py-20 px-20
+    <div id='about' className={`${darkmode ? 'bg-black' : 'bg-transparent'}' lg:py-20 px-20 lg:mt-0 mt-14
     flex flex-col justify-center items-center gap-8`}>
         <h1 className='text-5xl mb-8 border-b-2 border-gray-300 text-shadow-lg font-semibold  dark:text-white
         font-serif' data-aos="zoom-in">About Me</h1>
