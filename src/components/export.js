@@ -1,6 +1,7 @@
 import real from '../assets/real.png';
 import portfolio from '../assets/portfolio.png'
 import spotify from '../assets/spotify.png'
+import { Link } from 'react-scroll';
 
 const project = [
     {
@@ -8,6 +9,7 @@ const project = [
         about: 'A responsive website created with React, Tailwind and Vite with multiple libraries like React-icons, AOS, Scroll.',
         alt: 'Real Estate Website',
         image : real,
+        link: 'https://delhi-real-estate.netlify.app/'
     },
 
     {

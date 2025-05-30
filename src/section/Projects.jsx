@@ -40,7 +40,7 @@ function Project() {
                             className='rounded-xl' />
                             <button className="absolute left-7 center-10 bg-fuchsia-600
                              text-white px-4 py-2 text-sm font-semibold rounded hover:bg-fuchsia-700">
-                                <a href="">Live Demo</a>
+                                <a href={items.link}>Live Demo</a>
                               </button>
                             <button className="absolute right-7 center-10 bg-fuchsia-600
                              text-white px-4 py-2 text-sm font-semibold rounded hover:bg-fuchsia-700">

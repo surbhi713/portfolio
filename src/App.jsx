@@ -8,6 +8,7 @@ import Skills from './section/Skills';
 import Projects from './section/Projects';
 import { BrowserRouter,Routes,Route } from "react-router-dom";;
 import Contact from './section/Contact';
+import Footer from './components/Footer';
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Skills/>
         <Projects/>
         <Contact/>
+        <Footer/>
       <Routes>
         {/* <Route path='/header' element={<Header/>}/>
         <Route path='/Home' element={<Home/>}/>

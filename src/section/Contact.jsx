@@ -9,7 +9,7 @@ function Contact() {
 
   return (
     <div id='contact' className={`${darkmode ? 'bg-black' : 'bg-amber-200'} lg:px-20 py-10 justify-start items-start flex m-20 rounded-xl`}>
-      <section className=' flex flex-col justify-start items-center lg:w-[95%] w-full  '>
+      <section className=' flex flex-col justify-between items-center lg:w-[95%] w-full  '>
         
           <h1 className='text-5xl text-black font-serif font-semibold '>
             Get In Touch
@@ -24,10 +24,19 @@ function Contact() {
             transform hover:scale-110 transform-transition duration-300 hober:text-red hover:bg-black w-[50%]'>SUBMIT</button>
           </div>    
 
-           <div className=' justify-center items-center lg:w-[95%] mt-16 ml-20 w-full'>
-            <p><FaLocationDot size={30} className='m-5'/> 123 Main Street</p>
-            <p><FaPhone size={30} className='m-5' /> +1 234 567 890</p>
-            <p><FaEnvelope size={30} className='m-5'/> example@email.com</p>
+           <div className='space-y-4 flex flex-col items-center lg:w-[95%] mt-28 ml-20 w-full'>
+             <div className="flex items-center">
+              <FaLocationDot size={30} className="mr-3" />
+              <p>D-2/30 Khajoori Khas, Delhi-94</p>
+            </div>
+            <div className="flex items-center">
+              <FaPhone size={30} className="mr-3" />
+              <p>+91 9650855481</p>
+            </div>
+            <div className="flex items-center">
+              <FaEnvelope size={30} className="mr-3" />
+              <p>surbhi8004@email.com</p>
+            </div>
           </div> 
 
 
