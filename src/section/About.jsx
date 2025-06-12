@@ -1,34 +1,49 @@
-import React, { useEffect } from 'react'
-import { useDarkMode } from '../components/DarkModeComponent'
+import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-
 function About() {
-    useEffect(()=>{
+  useEffect(() => {
     Aos.init({
-        offset:200,
-        duration:800,
-        delay:100,
-        easing:"ease-in-sine"
-        })
-    },[])
-    
-    const{darkmode,toggleDarkMode}=useDarkMode();
+      offset: 200,
+      duration: 800,
+      delay: 100,
+      easing: 'ease-in-sine',
+    });
+  }, []);
 
   return (
-    <div id='about' className={`${darkmode ? 'bg-black' : 'bg-transparent'}' lg:py-20 px-20 lg:mt-0 mt-14
-    flex flex-col justify-center items-center gap-8`}>
-        <h1 className='text-5xl mb-8 border-b-2 border-gray-300 text-shadow-lg font-semibold  dark:text-white
-        font-serif' data-aos="zoom-in">About Me</h1>
-        <p className='text-teal-900  text-xl font-semibold text-center leading-7 py-10'
-        data-aos="zoom-in" data-aos-delay="200">Hey, I'm Surbhi — a frontend developer who turns pixels into purpose.
-    I don’t just build websites — I craft interactive experiences that feel alive.
-    <br /> With a strong grip on HTML, CSS, JavaScript, and React,  I blend code and creativity to build smooth, responsive, and engaging web interfaces. <br /> Whether it’s a startup idea or a complex dashboard, I love bringing clarity to complexity through clean code and intuitive design. <br />
+    <section
+      id="about"
+      className=" text-gray-800 py-20 px-6 md:px-16 flex flex-col justify-center items-center"
+    >
+      <div className="max-w-5xl mx-auto text-center bg-white shadow-lg rounded-3xl px-8 py-12 border border-pink-200">
+        <h1
+          className="text-4xl md:text-5xl font-bold font-serif text-pink-700 mb-8 border-b-2 inline-block border-pink-300"
+          data-aos="zoom-in"
+        >
+          About Me
+        </h1>
 
-    I'm driven by the belief that good design isn't just how something looks — it's how it feels to use. <br /> Though I am still working on API's .</p>
-    </div>
-  )
+        <p
+          className="text-md md:text-lg leading-8 text-gray-700 font-medium"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          Hi, I’m <span className="text-pink-600 font-semibold">Surbhi</span> —
+          a frontend developer and full-time pixel wrangler. <br />
+          I don’t just build websites — I convince browsers to behave (usually with snacks).
+          <br /><br />
+          Armed with <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>React</strong>, I turn ideas into smooth, responsive, and scroll-stopping experiences.
+          I craft web experiences that are smooth, responsive, and occasionally make people say, “Whoa, that’s cool.”
+          <br /><br />
+          ⚠️Still negotiating with APIs. They speak JSON — I’m learning the dialect.
+          <br /><br />
+          Great design isn't just how it looks — it's how it *feels*. Let's make the web a more delightful place, one div at a time.
+        </p>
+      </div>
+    </section>
+  );
 }
 
-export default About
+export default About;

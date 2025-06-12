@@ -1,6 +1,8 @@
 import real from '../assets/real.png';
 import portfolio from '../assets/portfolio.png'
 import spotify from '../assets/spotify.png'
+import apple from'../assets/Apple.png';
+import arch from '../assets/arch_Web.png'
 import { Link } from 'react-scroll';
 
 const project = [
@@ -24,7 +26,22 @@ const project = [
         about: 'A music website built with JS, HTML and CSS. ',
         alt:'Spotify Clone',
         image: spotify,
-    }
+    },
+    {
+        name: 'Arch Complete Solution',
+        about: 'A music website built with JS, HTML and CSS. ',
+        alt:'Spotify Clone',
+        image: arch,
+        link:''
+    },
+    {
+        name: 'Apple iPhone Clone',
+        about: 'A music website built with JS, HTML and CSS. ',
+        alt:'Spotify Clone',
+        image: apple,
+        link:''
+    },
+
 
 ]
 
