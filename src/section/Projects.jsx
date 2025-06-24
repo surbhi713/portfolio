@@ -10,7 +10,7 @@ function Project() {
         Aos.init({
             delay:100,
             offset:200,
-            duration:400,
+            duration:800,
             easing:'ease-in-sine'
         })
     })
@@ -28,7 +28,8 @@ function Project() {
         </div>
         
 
-        <div id="projects" data-aos="zoom-in"  className='grid lg:grid-cols-3 grid-cols-1 items-start gap-4 bg-fuchsia-200
+        <div id="projects" data-aos="zoom-in"  className='grid lg:grid-cols-3 grid-cols-1 items-start
+         gap-4 bg-fuchsia-200
          rounded-xl p-8 justify-between w-full shadow-xl shadow-black'>
             {
                 project.map((items,index)=>(
@@ -38,14 +39,16 @@ function Project() {
                         transition-transform duration-300 '>
                             <img src={items.image} alt={items.alt} data-aos="fade-in" data-aos-delay="800" 
                             className='rounded-xl' />
-                            <button className="absolute left-7 center-10 bg-fuchsia-600
+                            <div className='flex items-start justify-center gap-6'>
+                                <button className="absolute left-7 center-10 bg-fuchsia-600 m-auto
                              text-white px-4 py-2 text-sm font-semibold rounded hover:bg-fuchsia-700">
                                 <a href={items.link} target='_blank'>Live Demo</a>
                               </button>
-                            <button className="absolute right-7 center-10 bg-fuchsia-600
+                            <button className="absolute right-7 center-10 bg-fuchsia-600 m-auto
                              text-white px-4 py-2 text-sm font-semibold rounded hover:bg-fuchsia-700">
                                 <a href="" target='_blank'>Source Code</a>
                               </button>
+                            </div>
                         </div>
                         <div>
                         <h1 className='text-xl font-semibold border-b-2 border-gray-500 '>{items.name}</h1><br />
