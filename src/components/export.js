@@ -19,6 +19,7 @@ const project = [
         about:'My portfolio created with React, Tailwind and Vite with animation imported from AOS library.',
         alt:'Portfolio Website',
         image: portfolio,
+        link:'https://surbhisportfolio.netlify.app/'
     },
 
     {
@@ -29,15 +30,15 @@ const project = [
     },
     {
         name: 'Arch Complete Solution',
-        about: 'A music website built with JS, HTML and CSS. ',
-        alt:'Spotify Clone',
+        about: 'A business website built with React JS, Tailwind CSS and multiple Animation Libraries like React-scroll, GSAP, AOS, Slicker',
+        alt:'Freelancing website',
         image: arch,
-        link:''
+        link:'https://archcompletesolution.netlify.app'
     },
     {
         name: 'Apple iPhone Clone',
-        about: 'A music website built with JS, HTML and CSS. ',
-        alt:'Spotify Clone',
+        about: 'An Apple Clone to learn GSAP and many more JS logics. Built with React JS, GSAP, Javascript, Tailwind CSS',
+        alt:'Apple iPhone Clone',
         image: apple,
         link:''
     },
