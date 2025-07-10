@@ -30,7 +30,7 @@ function Header() {
   return (
     <nav
       className={`${
-        darkmode? 'bg-black' : scrolled? 'bg-teal-600 shadow-xl border-b border-teal-900': 'bg-amber-200'} 
+         'bg-amber-200'} 
         w-full sticky top-0 z-30 px-4 lg:px-8 transition-all duration-300`}
     >
       <div className="flex justify-between items-center py-4">
@@ -50,7 +50,7 @@ function Header() {
        <ul
   className={`${menuOpen ? 'flex' : 'hidden'} 
   flex-col lg:flex lg:flex-row gap-4 lg:gap-6 absolute lg:static top-[70px] left-0 w-full lg:w-auto
-    ${scrolled ? 'lg:bg-teal-600 bg-teal-600 ' : 'bg-amber-100 lg:bg-amber-200'}
+    ${ 'bg-amber-100 lg:bg-amber-200'}
     px-4 lg:px-0 py-4 lg:py-0 transition-all duration-300`}
 >
 
@@ -62,9 +62,9 @@ function Header() {
               spy={true}
               offset={-100}
               onClick={() => setMenuOpen(false)}
-              className="text-xl uppercase font-serif cursor-pointer px-3 py-2 text-black font-bold
-               hover:bg-black hover:lg:bg-red-600 rounded-xl transform hover:scale-110 
-                hover:text-white transition-transform duration-300"
+              className="text-xl uppercase font-serif cursor-pointer px-3 py-2 text-black font-semibold
+                rounded-xl transform hover:scale-110 
+                hover:text-red-900 transition-transform duration-300"
             >
               {link}
             </Link>

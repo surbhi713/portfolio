@@ -1,7 +1,6 @@
 import React, { use, useEffect } from 'react'
 import 'aos/dist/aos.css';
 import Aos from 'aos';
-import { useDarkMode } from '../components/DarkModeComponent';
 import project from "../components/export.js";
 
 
@@ -15,10 +14,9 @@ function Project() {
         })
     })
 
-    const{darkmode,toggleDarkMode} = useDarkMode()
 
   return (
-    <section className={`${darkmode ? 'bg-black' : 'bg-transparent'}  
+    <section className={`${'bg-transparent'}  
         lg:px-20 px-6 py-20 justify-center items-center gap-20  flex flex-col  lg:w-[95%]
         w-full h-fit m-auto bg-center bg-cover`}>
         <div className='flex flex-col justify-center items-start gap-4'>
@@ -40,14 +38,11 @@ function Project() {
                             <img src={items.image} alt={items.alt} data-aos="fade-in" data-aos-delay="800" 
                             className='rounded-xl' />
                             <div className='flex items-start justify-center gap-6'>
-                                <button className="absolute left-7 center-10 bg-fuchsia-600 m-auto
+                                <button className="absolute left-16 bg-fuchsia-600 m-auto
                              text-white px-4 py-2 text-sm font-semibold rounded hover:bg-fuchsia-700">
                                 <a href={items.link} target='_blank'>Live Demo</a>
                               </button>
-                            <button className="absolute right-7 center-10 bg-fuchsia-600 m-auto
-                             text-white px-4 py-2 text-sm font-semibold rounded hover:bg-fuchsia-700">
-                                <a href="" target='_blank'>Source Code</a>
-                              </button>
+                            
                             </div>
                         </div>
                         <div>

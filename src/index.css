@@ -3,3 +3,9 @@
 @tailwind utilities;
 
 @import 'aos/dist/aos.css';
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #1f2937; /* Tailwind gray-800 */
+}
