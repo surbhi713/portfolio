@@ -10,7 +10,7 @@ const project = [
         about: 'A responsive website created with React, Tailwind and Vite with multiple libraries like React-icons, AOS, Scroll.',
         alt: 'Real Estate Website',
         image : real,
-        link: 'https://delhi-real-estate.netlify.app/'
+        link: 'https://delhi-real-estate.vercel.app/'
     },
 
     {
@@ -18,7 +18,7 @@ const project = [
         about:'My portfolio created with React, Tailwind and Vite with animation imported from AOS library.',
         alt:'Portfolio Website',
         image: portfolio,
-        link:'https://surbhisportfolio.netlify.app/'
+        link:'https://portfolio-surbhi713s-projects.vercel.app/'
     },
     {
         name: 'Arch Complete Solution',
