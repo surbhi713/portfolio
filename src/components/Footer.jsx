@@ -12,7 +12,7 @@ function Footer() {
         </p>
 
         {/* Icons */}
-        <div className="flex gap-6 text-2xl">
+        <div className="flex gap-6 text-2xl hover:scale-110 transition-transform duration-300">
           <a
             href="https://www.linkedin.com/in/surbhi-a4111b301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
@@ -23,7 +23,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://www.twitter.com"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             className="text-sky-500 hover:text-sky-700 transition-colors"
@@ -31,7 +31,7 @@ function Footer() {
             <FontAwesomeIcon icon={faTwitter} />
           </a>
           <a
-            href="https://www.twitter.com"
+            href="https://github.com/surbhi713"
             target="_blank"
             rel="noopener noreferrer"
             className="text-black hover:text-sky-700 transition-colors"

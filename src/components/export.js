@@ -1,9 +1,8 @@
-import real from '../assets/real.png';
+import real from '../assets/Realestate.png';
 import portfolio from '../assets/portfolio.png'
 import spotify from '../assets/spotify.png'
 import apple from'../assets/Apple.png';
-import arch from '../assets/arch_Web.png'
-import { Link } from 'react-scroll';
+import arch from '../assets/Arch.png'
 
 const project = [
     {
@@ -26,7 +25,7 @@ const project = [
         about: 'A business website built with React JS, Tailwind CSS and multiple Animation Libraries like React-scroll, GSAP, AOS, Slicker',
         alt:'Freelancing website',
         image: arch,
-        link:'https://archcompletesolution.netlify.app'
+        link:'https://arch-solution.vercel.app/'
     },
     {
         name: 'Apple iPhone Clone',
