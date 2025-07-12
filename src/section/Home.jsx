@@ -56,6 +56,19 @@ function Home() {
           >
             Contact Me
           </a>
+          
+        </div>
+
+        <div className=''>
+          <a
+            href="/Resume.pdf"
+            download
+            className="bg-zinc-700 text-white py-4 px-6 rounded-xl
+             font-semibold shadow-md hover:bg-zinc-900 transition"
+          >
+            Download Resume
+          </a>
+
         </div>
       </div>
 
