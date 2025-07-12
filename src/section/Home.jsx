@@ -59,7 +59,7 @@ function Home() {
           
         </div>
 
-        <div className=''>
+        <div className='flex flex-col sm:flex-row justify-center lg:justify-center gap-4 pt-1'>
           <a
             href="/Resume.pdf"
             download
