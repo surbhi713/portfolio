@@ -21,13 +21,6 @@ const project = [
         image: portfolio,
         link:'https://surbhisportfolio.netlify.app/'
     },
-
-    {
-        name: 'Spoitfy Clone',
-        about: 'A music website built with JS, HTML and CSS. ',
-        alt:'Spotify Clone',
-        image: spotify,
-    },
     {
         name: 'Arch Complete Solution',
         about: 'A business website built with React JS, Tailwind CSS and multiple Animation Libraries like React-scroll, GSAP, AOS, Slicker',
@@ -40,7 +33,7 @@ const project = [
         about: 'An Apple Clone to learn GSAP and many more JS logics. Built with React JS, GSAP, Javascript, Tailwind CSS',
         alt:'Apple iPhone Clone',
         image: apple,
-        link:''
+        link:'https://apple-iphone-three.vercel.app/'
     },
 
 

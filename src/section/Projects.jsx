@@ -32,22 +32,25 @@ function Project() {
             {
                 project.map((items,index)=>(
                     <div key={index} className='rounded-xl  justify-center
-               items-start gap-6 cursor-pointer flex flex-col p-12  '>
+               items-start gap-6 cursor-pointer flex flex-col p-4 '>
                         <div className='gap-4 flex justify-start items-center w-full transform hover:scale-110
                         transition-transform duration-300 '>
-                            <img src={items.image} alt={items.alt} data-aos="fade-in" data-aos-delay="800" 
+                            <img src={items.image} alt={items.alt} data-aos="fade-in" data-aos-delay="400" 
                             className='rounded-xl' />
                             <div className='flex items-start justify-center gap-6'>
-                                <button className="absolute left-16 bg-fuchsia-600 m-auto
+                                <button className="absolute left-10 bg-fuchsia-600 m-auto
                              text-white px-4 py-2 text-sm font-semibold rounded hover:bg-fuchsia-700">
                                 <a href={items.link} target='_blank'>Live Demo</a>
                               </button>
-                            
+                            <button className="absolute right-10 bg-fuchsia-600 m-auto
+                             text-white px-4 py-2 text-sm font-semibold rounded hover:bg-fuchsia-700">
+                                <a href={items.link} target='_blank'>Source Code</a>
+                              </button>
                             </div>
                         </div>
                         <div>
                         <h1 className='text-xl font-semibold border-b-2 border-gray-500 '>{items.name}</h1><br />
-                        <p className='text-lg'>{items.about}</p>
+                        <p className='text-md'>{items.about}</p>
                         </div>
                     </div>
                 ))
