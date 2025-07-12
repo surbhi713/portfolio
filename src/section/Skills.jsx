@@ -18,13 +18,13 @@ const SkillsSection = () => {
   return (
     <section
       id="skills"
-      className={`py-16 px-4 md:px-10 transition-colors duration-500 
+      className={`py-16 px-4 sm:px-6 md:px-10 transition-colors duration-500 
         ${darkmode ? "bg-black text-amber-100" : "bg-gray-50 text-gray-800"}`}
     >
       <div className="max-w-6xl mx-auto">
         <h2
           data-aos="fade-up"
-          className="text-4xl md:text-5xl font-bold mb-12 text-center font-serif relative"
+          className="text-3xl sm:text-4xl md:text-5xl font-bold mb-12 text-center font-serif relative"
         >
           Skills <span className="text-rose-600">&</span> Technologies
           <div className="absolute left-1/2 -bottom-2 w-24 h-1 bg-rose-500 rounded-full -translate-x-1/2"></div>
@@ -33,9 +33,8 @@ const SkillsSection = () => {
         <div
           data-aos="fade-up"
           data-aos-delay="300"
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-center items-center"
+          className="grid gap-8 sm:gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
         >
-          {/* Card */}
           {[
             {
               title: "Frontend",
@@ -54,13 +53,12 @@ const SkillsSection = () => {
               key={idx}
               className={`bg-amber-100 ${
                 darkmode ? "text-gray-900" : "text-gray-800"
-              } rounded-2xl shadow-lg p-8 hover:scale-105 transition-transform duration-300
-              w-[70%] lg:w-full`}
+              } rounded-2xl shadow-lg p-6 sm:p-8 hover:scale-105 transition-transform duration-300`}
             >
-              <h3 className="text-xl font-bold mb-4">{skill.title}</h3>
+              <h3 className="text-lg sm:text-xl font-bold mb-4">{skill.title}</h3>
               <ul className="list-disc list-inside space-y-2 font-medium">
                 {skill.items.map((item, i) => (
-                  <li className="text-gray-800" key={i}>{item}</li>
+                  <li key={i} className="text-gray-800">{item}</li>
                 ))}
               </ul>
             </div>
