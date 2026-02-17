@@ -1,8 +1,9 @@
 import real from '../assets/Realestate.png';
 import portfolio from '../assets/portfolio.png'
-import spotify from '../assets/spotify.png'
+// import spotify from '../assets/spotify.png'
 import apple from'../assets/Apple.png';
 import arch from '../assets/Arch.png'
+import coffee from '../assets/coffee.png'
 
 const project = [
     {
@@ -21,11 +22,10 @@ const project = [
         link:'https://portfolio-surbhi713s-projects.vercel.app/'
     },
     {
-        name: 'Arch Complete Solution',
-        about: 'A business website built with React JS, Tailwind CSS and multiple Animation Libraries like React-scroll, GSAP, AOS, Slicker',
-        alt:'Freelancing website',
-        image: arch,
-        link:'https://arch-solution.vercel.app/'
+        name: 'Coffee shop',
+        about: 'A Coffee Shop Project',
+        image: coffee,
+        link: 'https://coffee-brew-haven.vercel.app/'
     },
     {
         name: 'Apple iPhone Clone',
@@ -34,8 +34,14 @@ const project = [
         image: apple,
         link:'https://apple-iphone-three.vercel.app/'
     },
-
-
-]
+    
+    {
+        name: 'Arch Complete Solution',
+        about: 'A business website built with React JS, Tailwind CSS and multiple Animation Libraries like React-scroll, GSAP, AOS, Slicker',
+        alt:'Freelancing website',
+        image: arch,
+        link:'https://arch-solution.vercel.app/'
+    },
+]   
 
 export default project ;
